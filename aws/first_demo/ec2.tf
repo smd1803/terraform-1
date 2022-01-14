@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "Gagandeep-aws-ec2-instance-Accenture"
+    Name = "Gagandeep-aws-ec2-instance-Accenture v2"
     Env = "test"
     Owner = "Gagandeep"
   }
